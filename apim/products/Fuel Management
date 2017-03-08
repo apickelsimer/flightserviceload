@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Aircraft Operations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "Loads airport fuel management logistics and for specific flghts scheduled refueling timelines are the specificed airport"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/72.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128553,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Fuel Management",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488087128553,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Fuel Management",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

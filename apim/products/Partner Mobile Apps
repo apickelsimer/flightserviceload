@@ -1,0 +1,24 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Partner Mobile Apps"
+  }, {
+    "name" : "ext_description",
+    "value" : "Mobile App Services available for Partners"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/110.png"
+  } ],
+  "createdAt" : 1488087128580,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Partner Mobile Apps",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488249044940,
+  "lastModifiedBy" : "apickelsimer@apigee.com",
+  "name" : "Partner Mobile Apps",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

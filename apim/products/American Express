@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Partnerships,Loyalty Rewards"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "Virutal Payment service using American Express Profile associated with passenger profile"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/card_services.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128557,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "American Express",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096645685,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "American Express",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

@@ -1,0 +1,33 @@
+{
+  "apiResources" : [ "/**", "/" ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "access",
+    "value" : "public"
+  }, {
+    "name" : "category",
+    "value" : "Flight Ops,Customer Experience"
+  }, {
+    "name" : "doc_url",
+    "value" : "/sw-flightstatus-soap-v1/apis/get"
+  }, {
+    "name" : "ext_description",
+    "value" : "Retrieve current flight status information for a passenger"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/80.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128543,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Flight Status",
+  "environments" : [ "test" ],
+  "lastModifiedAt" : 1488247355679,
+  "lastModifiedBy" : "apickelsimer@apigee.com",
+  "name" : "Flight Status",
+  "proxies" : [ "sw-flightstatus-soap-v1" ],
+  "scopes" : [ "" ]
+}

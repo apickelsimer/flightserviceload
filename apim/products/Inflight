@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Aircraft Operations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "API provides listing of available servies for a specific flight"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/inflight_services.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128555,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Inflight Services",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096680678,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Inflight",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

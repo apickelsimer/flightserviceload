@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Enterprise Operations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "API can help define booking a flight with identifying multiple connections in-between"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/route_planning.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128567,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Route Planning",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096424166,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Route Planning",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

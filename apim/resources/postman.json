@@ -1,0 +1,270 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Southwest",
+		"_postman_id": "6ddb0dd8-edea-67bc-10a5-7cb889c24f79",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sw-weather-v1",
+			"request": {
+				"url": "http://southwestluv-test.apigee.net/v1/weather?apikey=zPLD6MjQar5GzwRd8Fgppyig3cyPVsI2",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-flights-v1",
+			"request": {
+				"url": "http://southwestluv-test.apigee.net/v1/flights?apikey=zPLD6MjQar5GzwRd8Fgppyig3cyPVsI2",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-flightdetails-v1",
+			"request": {
+				"url": "http://southwestluv-test.apigee.net/v1/flightdetails?apikey=zPLD6MjQar5GzwRd8Fgppyig3cyPVsI2",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-airports-v1",
+			"request": {
+				"url": "http://southwestluv-test.apigee.net/v1/airports?apikey=zPLD6MjQar5GzwRd8Fgppyig3cyPVsI2",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-profile-v1",
+			"request": {
+				"url": "http://southwestluv-test.apigee.net/v1/profile?apikey=zPLD6MjQar5GzwRd8Fgppyig3cyPVsI2",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-flighthistory-v1",
+			"request": {
+				"url": "http://southwestluv-test.apigee.net/v1/flighthistory?apikey=zPLD6MjQar5GzwRd8Fgppyig3cyPVsI2",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sql-regex-protection",
+			"request": {
+				"url": "http://southwestluv-test.apigee.net/regex-protection?query=delete * from table",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-passenger-authz-v1 : list passengers",
+			"request": {
+				"url": "https://southwestluv-test.apigee.net/v1/passenger/list",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-passenger-authz-v1 : delete passenger",
+			"request": {
+				"url": "https://southwestluv-test.apigee.net/v1/passenger/a618dbb7-fd65-11e6-9a38-0ad881f403bf",
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ldap-connector-authn",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "cass",
+						"password": "apigee",
+						"saveHelperData": true,
+						"showPassword": false
+					}
+				},
+				"url": "https://southwestluv-test.apigee.net/authn",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic Y2FzczphcGlnZWU=",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "oauth-resource-owner",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "andrew",
+						"password": "apigee",
+						"saveHelperData": true,
+						"showPassword": false
+					}
+				},
+				"url": "https://southwestluv-test.apigee.net/token/oauth",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YW5kcmV3OmFwaWdlZQ==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "zPLD6MjQar5GzwRd8Fgppyig3cyPVsI2",
+							"type": "text",
+							"enabled": true,
+							"warning": ""
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text",
+							"enabled": true,
+							"warning": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-tsa-mashup-v1",
+			"request": {
+				"url": "\thttp://southwestluv-test.apigee.net/v1/tsa?airport=dal",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sw-jwt-oidc-v1-hs256",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var tests;"
+						]
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var prScript"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "\thttps://southwestluv-test.apigee.net/jwt_signed/create-hs256",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "key",
+							"value": "ThisSecretPassphraseMustBeAtLeast32CharactersLong",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

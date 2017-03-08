@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Enterprise Operations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "API provides leasing details on specified asset"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/74.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128547,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Lease Management",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488087128547,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Lease Management",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

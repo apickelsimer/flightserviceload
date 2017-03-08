@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "access",
+    "value" : "public"
+  }, {
+    "name" : "category",
+    "value" : "Customer Experience,Reservations"
+  }, {
+    "name" : "doc_url",
+    "value" : "/weather-3/apis"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/basic_weather.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128566,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Weather",
+  "environments" : [ "test" ],
+  "lastModifiedAt" : 1488249321039,
+  "lastModifiedBy" : "apickelsimer@apigee.com",
+  "name" : "Weather",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

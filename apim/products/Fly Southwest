@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ "/**", "/" ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Mobile"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "Retrieve a Southwest Profile and managing account information"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/fly_southwest.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488096845180,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Fly Southwest",
+  "environments" : [ "test" ],
+  "lastModifiedAt" : 1488261385680,
+  "lastModifiedBy" : "apickelsimer@apigee.com",
+  "name" : "Fly Southwest",
+  "proxies" : [ "sw-airports-v1", "sw-flightdetails-v1", "sw-flighthistory-v1", "sw-flights-v1", "sw-flightstatus-soap-v1", "sw-passenger-authz-v1", "sw-profile-v1", "sw-tsa-mashup-v1", "sw-weather-v1" ],
+  "scopes" : [ "" ]
+}

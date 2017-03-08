@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Aircraft Operations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "Loads flight operational data for a specific flight and current status"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/00k2_air_traffic_controller.jpg"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128545,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Flight Ops",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488165621648,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Flight Ops",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

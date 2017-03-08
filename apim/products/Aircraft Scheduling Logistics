@@ -1,0 +1,27 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Enterprise Operations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/aircraft_scheduling_logistics.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128543,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Aircraft Scheduling Logistics",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096886919,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Aircraft Scheduling Logistics",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

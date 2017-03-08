@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Loyalty Rewards"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "Loads passenger loyalty rewards and account status with transaction details"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/loyalty_rewards.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128571,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Loyalty Rewards",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096390941,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Loyalty Rewards",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

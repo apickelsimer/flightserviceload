@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Enterprise Operations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "API provides daily flight operating cost and can drill into a flight and look and devops cost to revenue"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/revenue_management.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128565,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Revenue Management",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096502823,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Revenue Management",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

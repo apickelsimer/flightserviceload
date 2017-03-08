@@ -1,0 +1,30 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "category",
+    "value" : "Partnerships"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "Retrieve Alliance details on flights and pricing information"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/alliances.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128554,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Alliances",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096700132,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Alliance Partnerships",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}

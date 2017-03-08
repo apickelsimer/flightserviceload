@@ -1,0 +1,33 @@
+{
+  "apiResources" : [ ],
+  "approvalType" : "auto",
+  "attributes" : [ {
+    "name" : "access",
+    "value" : "public"
+  }, {
+    "name" : "category",
+    "value" : "Reservations"
+  }, {
+    "name" : "doc_url",
+    "value" : "#"
+  }, {
+    "name" : "ext_description",
+    "value" : "Reservation API for booking a flight, status information, checkin capabilities and flight status details"
+  }, {
+    "name" : "image_url",
+    "value" : "/sites/default/files/reservations_central.png"
+  }, {
+    "name" : "roles",
+    "value" : "administrator,Developer"
+  } ],
+  "createdAt" : 1488087128564,
+  "createdBy" : "cobregon@apigee.com",
+  "description" : "",
+  "displayName" : "Reservation Central",
+  "environments" : [ ],
+  "lastModifiedAt" : 1488096520909,
+  "lastModifiedBy" : "cobregon@apigee.com",
+  "name" : "Reservations",
+  "proxies" : [ ],
+  "scopes" : [ "" ]
+}
